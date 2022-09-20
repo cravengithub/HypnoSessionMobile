@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>HypnoSession</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <div id="mobile-section">
+            <header class="header-mobile d-block d-lg-none">
+                <div class="header-mobile__bar ">
+                    <div class="container-fluid">
+                        <div class="header-mobile-inner">
+                            <a class="logo" href="index.html">
+                                <img src="images/icon/logo-mini.png" alt="HypnoSession" />
+                            </a>
+                            <span class="title-3">
+                                <strong>H</strong>ypno<strong>S</strong>ession
+                            </span>
+                            <button class="hamburger hamburger--slider" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <span>
+                            Melayani konsultasi Psikologi dengan Hypno Terapi.
+                        </span>
+                    </div>
+                </div>
+                <nav class="navbar-mobile">
+                    <div class="container-fluid">
+                        <ul class="navbar-mobile__list list-unstyled">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fas fa-tachometer-alt"></i>Beranda</a>
+                            </li>
+                            <li>
+                                <a id="menu-mob-artikel" href="artikel.html">
+                                    <i class="fa fa-archive"></i>Artikel</a>
+                            </li>
+                            <li>
+                                <a id="menu-mob-paket" href="paket.html">
+                                    <i class="fa fa-leaf"></i>Paket Terapi</a>
+                            </li>
+                            <li>
+                                <a id="menu-mob-profile" href="profile.html">
+                                    <i class="zmdi zmdi-account-calendar"></i>Profil</a>
+                            </li>
+                            <li>
+                                <a class="logout" href="login.html">
+                                    <i class="fa fa-eject"></i>Keluar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/icon/logo-dashboard.png" alt="HypnoSession" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a href="index.html">
+                                <i class="fas fa-tachometer-alt"></i>Beranda</a>
+                        </li>
+                        <li>
+                            <a href="artikel.html">
+                                <i class="fa fa-archive"></i>Artikel</a>
+                        </li>
+                        <li>
+                            <a href="paket.html">
+                                <i class="fa fa-leaf"></i>Paket Terapi</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">
+                                <i class="zmdi zmdi-account-calendar"></i>Profil</a>
+                        </li>
+                        <li>
+                            <a class="logout" href="login.html">
+                                <i class="fa fa-eject"></i>Keluar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div id="main-row" class="row">
+                            <div class="col-lg-6">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('images/bg-title-02.jpg');">
+                                        <div class="bg-overlay bg-overlay--blue"></div>
+                                        <h3>
+                                            <div class="avatar-wrap">
+                                                <div class="avatar">
+                                                    <img src="" alt="Icon src" />
+                                                </div>
+                                            </div>
+                                            <text id="nama"></text>
+                                        </h3>
+                                    </div>
+                                    <div class="au-inbox-wrap js-inbox-wrap">
+                                        <div class="au-message js-list-load">
+                                            <div class="au-message__noti">
+                                                <p>
+                                                    <text id="deskripsi"></text>&nbsp;
+                                                    <text id="harga"></text>
+                                                </p>
+                                            </div>
+                                            <div id="konten">
+                                            </div>
+                                            <h4><i class="fa fa-music"></i>&nbsp;&nbsp;Daftar Audio</h4>
+                                            <div id="audio-list"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MAIN CONTENT-->
+                <!-- END PAGE CONTAINER-->
+            </div>
+
+            <!-- Jquery JS-->
+            <script src="vendor/jquery-3.2.1.min.js"></script>
+            <!-- Bootstrap JS-->
+            <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+            <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+            <!-- Vendor JS       -->
+            <script src="vendor/slick/slick.min.js">
+            </script>
+            <script src="vendor/wow/wow.min.js"></script>
+            <script src="vendor/animsition/animsition.min.js"></script>
+            <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+            </script>
+            <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+            <script src="vendor/counter-up/jquery.counterup.min.js">
+            </script>
+            <script src="vendor/circle-progress/circle-progress.min.js"></script>
+            <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+            <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+            <script src="vendor/select2/select2.min.js">
+            </script>
+
+            <!-- Main JS-->
+            <script src="js/main.js"></script>
+
+            <!-- Sticky JS-->
+            <script src="js/jquery.sticky.js"></script>
+
+            <!-- pages JS-->
+            <script src="js/pages/detail_paket.js"></script>
+
+            <!-- Cordova JS-->
+            <script type="text/javascript" src="cordova.js"></script>
+            <!-- app-exit JS -->
+            <script src="js/app-exit.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->

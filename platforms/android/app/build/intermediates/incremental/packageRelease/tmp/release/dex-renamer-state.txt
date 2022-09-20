@@ -1,0 +1,4 @@
+#Thu Apr 30 23:34:49 WIB 2020
+base.0=/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/build/intermediates/dex/release/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

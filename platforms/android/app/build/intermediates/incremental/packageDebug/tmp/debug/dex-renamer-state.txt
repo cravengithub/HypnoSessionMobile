@@ -1,0 +1,7 @@
+#Fri May 01 00:10:50 WIB 2020
+base.0=/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+path.1=classes_0.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex

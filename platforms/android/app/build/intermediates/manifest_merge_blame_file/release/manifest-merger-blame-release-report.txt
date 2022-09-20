@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.klinikhipnoterapi.hypnosession"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="10000"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk android:minSdkVersion="21" />
+8-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml
+9
+10    <supports-screens
+10-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+11        android:anyDensity="true"
+11-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+12        android:largeScreens="true"
+12-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+13        android:normalScreens="true"
+13-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+14        android:resizeable="true"
+14-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+15        android:smallScreens="true"
+15-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+16        android:xlargeScreens="true" />
+16-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+18-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22
+23    <application
+23-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
+24        android:hardwareAccelerated="true"
+24-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+25        android:icon="@mipmap/icon"
+25-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+26        android:label="@string/app_name"
+26-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+27        android:supportsRtl="true" >
+27-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+28        <activity
+28-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+29            android:name="com.klinikhipnoterapi.hypnosession.MainActivity"
+29-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+30-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+31            android:label="@string/activity_name"
+31-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+32            android:launchMode="singleTop"
+32-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+33            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+33-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+34            android:windowSoftInputMode="adjustResize" >
+34-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+35            <intent-filter android:label="@string/launcher_name" >
+35-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+35-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+36-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+38-->/home/craven/software-project/mobile/hypnoSessionMobile/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>

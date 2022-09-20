@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "HypnoSession",
+  "short_name": "HypnoSession",
+  "version": "com.klinikhipnoterapi.hypnosession",
+  "description": "Aplikasi ini merupakan media yang menyediakan konten-konten untuk dukungan proses hypnotherapi untuk para pengguna.",
+  "author": "HypnoSession Team",
+  "icons": [],
+  "start_url": "login.html"
+}

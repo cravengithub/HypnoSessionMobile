@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.klinikhipnoterapi.hypnosession" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>HypnoSession</name>
+    <description>
+        Aplikasi ini merupakan media yang menyediakan konten-konten untuk dukungan proses hypnotherapi untuk para pengguna.
+    </description>
+    <author email="info.hypnosession@gmail.com" href="klinikhipnoterapi.co.id">
+        HypnoSession Team
+    </author>
+    <content src="login.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon density="mdpi" src="res/icon/android/logo-mdpi.png" />
+    <icon density="ldpi" src="res/icon/android/logo-ldpi.png" />
+    <icon density="hdpi" src="res/icon/android/logo-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/logo-xhdpi.png" />
+    <icon density="xxhdpi" src="res/icon/android/logo-xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icon/android/logo-xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
